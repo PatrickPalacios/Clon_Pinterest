@@ -1,0 +1,145 @@
+/* Resetear los estilos del navegador */
+body, h1, h2, p, img, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f5f6;
+    padding: 10px 20px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Alinear a la derecha */
+}
+
+/* Estilo del logo */
+.left-section img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Estilo del botón Explorar */
+.button-explore {
+    background-color: #fff;
+    color: #e60023;
+    border: 1px solid #e60023;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.button-explore:hover {
+    background-color: #e60023;
+    color: #fff;
+}
+
+/* Estilo de los enlaces de navegación */
+.nav-buttons a {
+    color: #0e0c0c;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Barra de navegación */
+#navbar-pinterest {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.finder input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Contenido principal */
+/* Contenido principal */
+#content {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    max-width: 800px; /* Ajusta el valor según sea necesario */
+}
+
+/* Galería de imágenes */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.card-image {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-content h2 {
+    margin-bottom: 10px;
+}
+
+.card-buttons button {
+    margin: 5px;
+}
+
+/* Botón de cargar más imágenes */
+.load-more-button {
+    background-color: #e60023;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.load-more-button:hover {
+    background-color: #ff3344;
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #e60023;
+    padding: 10px 20px;
+}
+
+#pinterest-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url('/imgs/icon.png') no-repeat center center;
+}
